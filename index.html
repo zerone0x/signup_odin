@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>signup</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div class ="leftodin">
+    <div class="frontbanner">
+        <img src="./img/odin-lined.png" class="banner">
+        <!-- <p>Odin</p> -->
+    </div>
+    <footer>
+        <p>© 2024 Odin</p></footer>
+</div>
+
+<div class="rightodin">
+    <div class="Intro">
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+            Sign up now to get started.
+            </p>
+        <p>
+            You know you want to.
+        </p>
+        </div>
+    <div class="form">
+        <form action="index.php" method="post">
+            <div class="firsttpart">
+            <p class="Intro">Let's do this!</p>
+            <div class ="input_couple">
+            <div class ="input_split">
+            <label for="name">FIRST NAME</label><br> 
+            <input type="text" id="name" name="name" value="Thor" required></div>
+            <div class ="input_split">
+            <label for="name">LAST NAME</label> <br>
+            <input type="text" id="name" name="name" minlength="3" value="Odinson"required> </div></div>
+            <div class ="input_couple">
+            <div class ="input_split">
+            <label for="email">EMAIL</label> <br>
+            <input type="email" id="email" name="email" required> </div>
+            <div class ="input_split">
+            <label for="phone">PHONE NUMBER</label> <br>
+            <input type="tel" id="phone" name="phone" required> </div></div>
+            <div class ="input_couple">
+            <div class ="input_split">
+            <label for="password">PASSWORD</label> <br>
+            <input type="password" id="passworda" name="passworda" minlength="5"required> </div>
+            <div class ="input_split">
+            <label for="password">CONFIRM PASSWORD</label> <br>
+            <input type="password" id="passwordb" name="passwordb" required> </div></div></div>
+            <div class="secondpart">
+            <input type="submit" value="Create Account" class="submit">
+        <p>Already have an account? <a href="#">Log in</a></p></div>
+        </form>
+        
+    </div>
+    </div>
+
+
+
+</div>
+</body>
+<script src="script.js"></script>
+</html>
